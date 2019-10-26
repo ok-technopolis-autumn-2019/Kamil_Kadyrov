@@ -1,0 +1,39 @@
+.add-input{
+	width: 100%;
+}
+
+.add-input__view{
+	background-color: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	border-bottom: 1px solid #EFEFEF;
+	box-shadow: 0px 2px 2px 2px #E0E0E0;
+}
+
+.add-input__select-all{
+	color:transparent;
+	width: 65px;
+	height: 65px;
+	border: none;
+	background-image: url(../svg/add.svg);
+	background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.add-input__entry-task{
+	border: none;
+	color:#737373;
+	font-size: 24px;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 300;
+	flex-grow: 1;
+	padding: 0 5px;
+	overflow: hidden;
+}
+
+.add-input__entry-task::placeholder{
+	color:#CCCCCC;
+	font-style: italic;
+}

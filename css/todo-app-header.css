@@ -1,0 +1,12 @@
+.todo-app-header{
+
+}
+
+.todo-app-header__title{
+	color:#CCCCCC;
+	font-size:100px;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight:100;
+	text-align: center;
+}

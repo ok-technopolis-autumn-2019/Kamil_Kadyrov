@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import "./todo-app.css";
+@import "./todo-app-header.css";
+@import "./main-content__add-input.css";
+@import "./main-content__tasks.css";
+@import "./actions.css";
+@import "./media-query-max-width-820px.css";
+@import "./media-query-max-width-715px.css";
+@import "./media-query-max-width-640px.css";
+
+body{
+	background-color: #F5F5F5;
+}

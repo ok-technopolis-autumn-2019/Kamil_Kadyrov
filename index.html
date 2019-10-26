@@ -4,6 +4,9 @@
     <head>
         <meta charset="UTF-8" />
         <title>todos</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap&subset=cyrillic" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -27,7 +30,8 @@
 
                         <li class="tasks-list-item list-item">
                             <div class="list-item__view">
-                                <input type="checkbox" class="list-item__input_checkbox" />
+                                <input type="checkbox" id="html" class="list-item__input_checkbox" />
+                                <label class="custom-checkbox" for="html"></label>
                                 <span class="list-item__text">HTML</span>
                                 <button class="list-item__delete-task" aria-label="delete-task">delete task</button>
                             </div>
@@ -38,7 +42,8 @@
 
                         <li class="tasks-list-item list-item">
                             <div class="list-item__view">
-                                <input type="checkbox" class="list-item__input_checkbox" />
+                                <input type="checkbox" id="css" class="list-item__input_checkbox" />
+                                <label class="custom-checkbox" for="css"></label>
                                 <span class="list-item__text">CSS</span>
                                 <button class="list-item__delete-task" aria-label="delete-task">delete task</button>
                             </div>
@@ -49,8 +54,9 @@
 
                         <li class="tasks-list-item list-item">
                             <div class="list-item__view">
-                                <input type="checkbox" class="list-item__input_checkbox" />
-                                <span class="tasks-item__text">JS</span>
+                                <input type="checkbox" id="js" class="list-item__input_checkbox" />
+                                <label class="custom-checkbox" for="js"></label>
+                                <span class="list-item__text">JS</span>
                                 <button class="list-item__delete-task" aria-label="delete-task">delete task</button>
                             </div>
                             <div class="list-item__edit" hidden>
@@ -60,7 +66,8 @@
 
                         <li class="tasks-list-item list-item">
                             <div class="list-item__view">
-                                <input type="checkbox" class="list-item__input_checkbox" />
+                                <input type="checkbox" id="js_tools" class="list-item__input_checkbox" />
+                                <label class="custom-checkbox" for="js_tools"></label>
                                 <span class="list-item__text">JS tools</span>
                                 <button class="list-item__delete-task" aria-label="delete-task">delete task</button>
                             </div>
@@ -68,6 +75,12 @@
                                 <input type="text" class="list-item__edit-input" value="JS tools"/>
                             </div>
                         </li>
+
+                        <li class="tasks-list-item list-item">
+                            <div class="list-item__view">
+                            </div>    
+                        </li>
+                        
                     </ul>
                 </section>
 
