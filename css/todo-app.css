@@ -1,11 +1,14 @@
 .todo-app {
 	width: 56.2%;
+    min-width: 364px;
 	margin: 0 auto;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .todo-app::after{
 	height: 10px;
     width: 55%;
+    min-width: 350px;
 
     position: absolute;
     top: 527px;
@@ -21,6 +24,7 @@
 .todo-app::before{
 	height: 10px;
     width: 54%;
+    min-width: 344px;
 
     position: absolute;
     top: 535px;

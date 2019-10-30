@@ -5,10 +5,3 @@
 	list-style-type: none;
 	box-sizing: border-box;
 }
-
-/* Remove outline on the inputs and buttons (Мешает тестировать кнопки и инпуты TAB-ом(но всё работает,
-отключал это свойство во время процесса))*/
-:active, :hover, :focus {
-    outline: 0;
-    outline-offset: 0;
-}

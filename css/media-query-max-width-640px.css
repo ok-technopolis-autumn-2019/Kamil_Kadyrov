@@ -1,25 +1,15 @@
 @media screen and (max-width: 640px){
-	.task-type-choose{
-		display: flex;
-		flex-direction: column;
-		min-width: 82px;
-	}
-
 	.actions{
 		align-items: center;
 	}
 
-	.todo-app::after{
-		top:573px;
-	}
-
 	.todo-app::before{
-		top:581px;
+		left:50%;
+		margin-left:-172px;
 	}
 
-	.actions-item:last-child{
-		display: flex;
-		flex-direction: column;
-		word-break: all;
+	.todo-app::after{
+		left:50%;
+		margin-left:-175px;
 	}
 }
