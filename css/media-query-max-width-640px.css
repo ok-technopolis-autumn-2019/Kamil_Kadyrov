@@ -1,4 +1,4 @@
-@media screen and (max-width: 640px){
+@media screen and (max-width: 650px){
 	.actions{
 		align-items: center;
 	}
@@ -6,10 +6,16 @@
 	.todo-app::before{
 		left:50%;
 		margin-left:-172px;
+		top:552px;
 	}
 
 	.todo-app::after{
 		left:50%;
 		margin-left:-175px;
+		top:544px;
+	}
+
+	.tasks-clear-completed{
+		width: 80px;
 	}
 }

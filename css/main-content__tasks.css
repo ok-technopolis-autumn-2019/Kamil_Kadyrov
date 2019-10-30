@@ -20,7 +20,7 @@
 }
 
 .list-item__view:hover .list-item__delete-task,
-.list-item__view:focus .list-item__delete-task {
+.list-item__view .list-item__delete-task:focus {
 	z-index: 1;
 }
 
@@ -40,6 +40,10 @@
 	background-image: url(../svg/checked.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.list-item__input_checkbox:focus + .custom-checkbox{
+	border-color: #1C816E;
 }
 
 .list-item__input_checkbox:checked ~ .list-item__text{

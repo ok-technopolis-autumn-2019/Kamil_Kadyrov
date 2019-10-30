@@ -39,6 +39,10 @@
 	border-radius: 2px;
 }
 
+.task-type-choose__input:focus + .task-type-choose__text{
+	border-color: #C5BFBF;
+}
+
 .tasks-clear-completed{
 	background-color: #fff;
 	border: none;
