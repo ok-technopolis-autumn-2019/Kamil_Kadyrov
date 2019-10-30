@@ -1,0 +1,9 @@
+@media screen and (max-width: 840px){
+	.task-type-choose__item{
+		margin: 0 5px;
+	}
+
+	.task-type-choose__text{
+		padding: 0 5px;
+	}
+}
