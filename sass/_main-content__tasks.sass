@@ -1,0 +1,52 @@
+.list-item
+	word-break: break-all
+	&__view
+		+font_main_style
+		display: flex
+		justify-content: flex-start
+		align-items: stretch
+		background-color: $main_bgc_color
+		border-bottom: $border_btm
+		cursor: pointer
+		box-shadow: $shadow
+		&hover
+			background-color: #FAFAFA
+		&:hover .list-item__delete-task, 
+		.list-item__delete-task:focus
+			z-index:1
+	&__text
+		padding: 10px 0 10px 15px
+		margin: auto 0
+		flex-grow: 1
+	&__input_checkbox
+		z-index: -1
+		width: 0
+		&:checked + .custom-checkbox
+			border-color: #5DC2AF
+			background-image: url('../svg/checked.svg')
+			+backg_image
+		&:focus + .custom-checkbox
+			border-color: #1C816E
+		&:checked ~ .list-item__text
+			text-decoration: line-through
+			color: #DFDFDF
+	&__delete-task
+		z-index: -1
+		background-image: url('../svg/del.svg')
+		+backg_image
+		color: transparent
+		background-color: transparent
+		border: none
+		flex-shrink: 0
+	&:last-child &__view
+		height: 61px
+		background-color: $main_bgc_color
+		cursor: auto
+.custom-checkbox
+	width: $custom_cb_w_and_h
+	height: $custom_cb_w_and_h
+	background-color: $main_bgc_color
+	border: $border_btm
+	border-radius: 50%
+	margin: 10px
+	flex-shrink: 0

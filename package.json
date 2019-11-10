@@ -1,0 +1,28 @@
+{
+  "name": "todo_app_polis.mail",
+  "version": "1.0.0",
+  "description": "Kadyrov Kamil's todo_app for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-autumn-2019/Kamil_Kadyrov.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "hw3",
+    "ok"
+  ],
+  "author": "Kadyrov Kamil (Kopeyka885)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-autumn-2019/Kamil_Kadyrov/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-autumn-2019/Kamil_Kadyrov#readme",
+  "dependencies": {
+    "sass": "^1.23.3"
+  }
+}

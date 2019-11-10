@@ -1,0 +1,27 @@
+.add-input
+	width: 100%
+	&__view
+		background-color:$main_bgc_color
+		display: flex
+		justify-content: flex-start
+		align-items: stretch
+		border-bottom: $border_btm
+		box-shadow: $shadow
+	&__select-all
+		color: transparent
+		width: $select-all_btn_w_and_h
+		height: $select-all_btn_w_and_h
+		border: none
+		background-image: url('../svg/add.svg')
+		background-color: $main_bgc_color
+		+backg_image
+	&__entry-task
+		+font_main_style
+		border: none
+		color: #737373
+		flex-grow: 1
+		padding: 0 5px
+		&::placeholder
+			color: #CCCCCC
+			font-style: italic
+			font-weight: 300

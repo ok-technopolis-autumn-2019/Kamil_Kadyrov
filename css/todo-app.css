@@ -15,7 +15,6 @@
     left:22.5%;
     content: "";
     background-color: white;
-    border-radius: 1px;
     box-shadow: 0px 2px 2px 2px #E0E0E0;
     z-index:-1;
     border-radius: 2px;
@@ -31,7 +30,6 @@
     left:23%;
     content: "";
     background-color: white;
-    border-radius: 1px;
     box-shadow: 0px 2px 2px 2px #E0E0E0;
     z-index:-2;
     border-radius: 2px;
