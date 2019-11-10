@@ -1,0 +1,36 @@
+.actions
+	font-weight:300
+	font-size: 14px
+	color: $light_gray
+	display: flex
+	background-color: $main_bgc_color
+	justify-content: space-between
+	align-items: stretch
+	align-content: 10px
+	padding: 10px
+	box-shadow: $shadow
+	&-item
+		padding: 10px 10px
+.task-type-choose
+	&__input
+		opacity: 0
+		width: 0
+		&:checked + .task-type-choose__text
+			border: 2px solid #F5EFEF
+			border-radius: 2px
+		&:focus + .task-type-choose__text
+			border-color: #C5BFBF
+	&__item
+		padding: 2px
+		margin: 0 10px
+		cursor: pointer
+	&__text
+		border: 2px solid transparent
+		padding: 0 10px
+.tasks-clear-completed
+	background-color:$main_bgc_color
+	border: none
+	cursor: pointer
+	+font_main_style
+	font-size: 14px
+	color: $light_gray

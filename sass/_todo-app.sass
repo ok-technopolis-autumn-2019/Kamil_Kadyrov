@@ -1,0 +1,18 @@
+.todo-app
+	width: 56.2%
+	min-width: 364px
+	margin: 0 auto
+	font-family: $font
+
+	&::after, &::before
+		height:$layer_hg
+		position: $layer_pos
+		content: $layer_content
+		border-radius: $layer_bord_rad
+		background-color: $main_bgc_color
+
+	&::after
+		+layer_diff(0,0,0,0,0)
+
+	&::before
+		+layer_diff(-1%,-6px,8px,0.5%,-1)

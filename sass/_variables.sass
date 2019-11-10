@@ -1,0 +1,36 @@
+$font: "Roboto", "Arial", sans-serif
+
+$body_bgc: #F5F5F5
+$main_bgc_color: white
+$light_gray: #C3C3C3
+
+$shadow: 0px 2px 2px 2px #E0E0E0
+$border_btm : 1px solid #EFEFEF
+
+$select-all_btn_w_and_h: 65px
+$custom_cb_w_and_h: 40px
+
+$layer_hg: 10px
+$layer_content: ""
+$layer_pos: absolute
+$layer_bord_rad: 2px
+$layer_width: 55%
+$layer_min_width: 350px
+$layer_top: 527px
+$layer_left: 22.5%
+
+=layer_diff($w, $min_w, $top, $left, $z_ind)
+	width: $layer_width + $w
+	min-width: $layer_min_width + $min_w
+	top: $layer_top + $top
+	left: $layer_left + $left
+	z-index: -1 + $z_ind
+
+=font_main_style
+	font-weight: 300
+	font-family: $font
+	font-size: 24px
+
+=backg_image
+	background-repeat: no-repeat
+	background-position: center
